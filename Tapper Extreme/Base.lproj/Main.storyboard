@@ -20,14 +20,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retrobg" translatesAutoresizingMaskIntoConstraints="NO" id="Eab-3u-63f">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tapper" translatesAutoresizingMaskIntoConstraints="NO" id="1wz-4y-COf" userLabel="Logo">
-                                <rect key="frame" x="131" y="59" width="338" height="72"/>
-                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="72" id="DvE-rq-aTF"/>
-                                    <constraint firstAttribute="width" constant="338" id="Pgo-G3-Qeo"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HS8-XN-Wj8" userLabel="PlayBtn">
                                 <rect key="frame" x="176" y="414" width="249" height="121"/>
                                 <constraints>
@@ -48,7 +40,7 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BE8-Ah-oB8" userLabel="CoinBtn">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BE8-Ah-oB8" userLabel="CoinBtn">
                                 <rect key="frame" x="214" y="28" width="172" height="177"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="172" id="DSs-o6-YqW"/>
@@ -59,8 +51,8 @@
                                     <action selector="onCoinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UxO-db-CBW"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="100 Taps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wn7-Vg-g0P" userLabel="TapLbl">
-                                <rect key="frame" x="112" y="249" width="377" height="75"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 Taps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wn7-Vg-g0P" userLabel="TapLbl">
+                                <rect key="frame" x="112" y="263" width="377" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="377" id="DmA-la-OpM"/>
                                     <constraint firstAttribute="height" constant="75" id="teA-Gl-M07"/>
@@ -69,6 +61,14 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tapper" translatesAutoresizingMaskIntoConstraints="NO" id="1wz-4y-COf" userLabel="Logo">
+                                <rect key="frame" x="131" y="59" width="338" height="72"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="DvE-rq-aTF"/>
+                                    <constraint firstAttribute="width" constant="338" id="Pgo-G3-Qeo"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
