@@ -8,7 +8,7 @@ This game is a simple example of using storyboard contraints, tap inputs, and so
 
 ![Screen Shot 2][preview2]
 
-[preview2]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"!
+[preview2]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 
 ## How to Play
