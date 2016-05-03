@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		833D217F1CD8F9380018C767 /* Preview1.png in Resources */ = {isa = PBXBuildFile; fileRef = 833D217D1CD8F9380018C767 /* Preview1.png */; };
+		833D21801CD8F9380018C767 /* Preview2.png in Resources */ = {isa = PBXBuildFile; fileRef = 833D217E1CD8F9380018C767 /* Preview2.png */; };
 		83B3BC331CA341F900D9A69E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3BC321CA341F900D9A69E /* AppDelegate.swift */; };
 		83B3BC351CA341F900D9A69E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3BC341CA341F900D9A69E /* ViewController.swift */; };
 		83B3BC381CA341F900D9A69E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B3BC361CA341F900D9A69E /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		833D217D1CD8F9380018C767 /* Preview1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Preview1.png; sourceTree = "<group>"; };
+		833D217E1CD8F9380018C767 /* Preview2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Preview2.png; sourceTree = "<group>"; };
 		83B3BC2F1CA341F900D9A69E /* Tapper Extreme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tapper Extreme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B3BC321CA341F900D9A69E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83B3BC341CA341F900D9A69E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				83B3BC391CA341F900D9A69E /* Assets.xcassets */,
 				83B3BC3B1CA341F900D9A69E /* LaunchScreen.storyboard */,
 				83B3BC3E1CA341F900D9A69E /* Info.plist */,
+				833D217D1CD8F9380018C767 /* Preview1.png */,
+				833D217E1CD8F9380018C767 /* Preview2.png */,
 			);
 			path = "Tapper Extreme";
 			sourceTree = "<group>";
@@ -124,6 +130,8 @@
 			files = (
 				83B3BC3D1CA341F900D9A69E /* LaunchScreen.storyboard in Resources */,
 				83B3BC3A1CA341F900D9A69E /* Assets.xcassets in Resources */,
+				833D21801CD8F9380018C767 /* Preview2.png in Resources */,
+				833D217F1CD8F9380018C767 /* Preview1.png in Resources */,
 				83B3BC381CA341F900D9A69E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				83B3BC431CA341F900D9A69E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

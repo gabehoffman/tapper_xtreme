@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tapsLbl: UILabel!
     
     @IBAction func onCoinTapped(sender: UIButton!) {
-        currentTaps++
+        currentTaps += 1
         updateTabsLbl()
         
         let screenWidth = Int(self.view.bounds.width - tapBtn.bounds.width)
